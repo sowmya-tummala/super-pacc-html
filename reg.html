@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Slot Booking</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<style type="text/css">
+
+		#myVideo {
+  position:  fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 20%;
+  opacity: 1.4;
+
+}
+.content {
+  position: relative;
+  bottom: 0;
+  color: #f1f1f1;
+  width:40%;
+}
+.button1 {
+  			background-color: white; 
+  			padding: 6px;
+  			border: 4px skyblue;
+  			color: cornflowerblue;
+		}
+
+		.button1:hover {
+  			background-color: cornflowerblue;
+  			color: white;
+  		}
+  		label{
+  			font-size: 20px;
+  		}
+  		h1{
+  			font-size: 40px;
+  		}
+
+	</style>
+</head>
+<body>
+	<video autoplay muted loop id='myVideo' >
+  <source src="reg.mp4" type="video/mp4">
+ 
+	</video><div class='content'>
+		<h1><b>SLOT BOOKING FORM<b></h1>
+		<form action="data1.php" method="post">
+			
+<p>
+			<label for="firstName">First Name:</label><br>
+			<input type="text" name="first_name" id="firstName">
+			</p>
+
+			
+<p>
+			<label for="lastName">Last Name:</label><br>
+			<input type="text" name="last_name" id="lastName">
+			</p>
+
+			
+<p>
+			<label for="Gender">Gender:</label><br>
+			<input type="text" name="gender" id="Gender">
+			</p>
+
+<p>
+			<label for="phone">Mobile Number:</label><br>
+			<input type="text" name="phone" id="phone">
+			</p>
+
+
+
+<p>
+			<label for="number">Vechical Number:</label><br>
+			<input type="text" name="number" id="number">
+			</p>
+
+<p>
+			<label for="service">Type of service:</label><br>
+			<input type="text" name="service" id="service">
+			</p>
+
+<p>
+			<label for="Address">Address:</label><br>
+			<input type="text" name="address" id="Address">
+			</p><br>
+
+
+			<input type="submit" value="Submit" class="button1">
+		</form>
+</div>
+</body>
+</html>
